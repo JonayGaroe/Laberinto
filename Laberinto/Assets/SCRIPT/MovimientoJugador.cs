@@ -29,5 +29,8 @@ public class MovimientoJugador : MonoBehaviour
         movementEjeZ = - Input.GetAxis("Horizontal") * Time.deltaTime * fastmovement;
 
         transform.Translate(movementEjeX, movementEjeY, movementEjeZ);
+
     }
 }
+
+
